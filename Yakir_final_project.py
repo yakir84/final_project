@@ -10,6 +10,8 @@ import utils
 def displayMenu():
     for item in MenuItems:
         print(str(item.value) + ". " + item.name)  # Printing each menu item
+        print("The project by yakir ")
+        
 
 
 def handleChoice(selected_choice, people_dict, total_age):
